@@ -14,7 +14,7 @@ $light: #f8f8f8;
 $family-sans-serif: "Nunito",sans-serif;
 $primary: $green;
 
-$link: $light-green;
+$link: $turquoise;
 
 $control-border-width: 2px;
 $input-border-color: transparent;
@@ -45,4 +45,19 @@ html, body {
     background: white;
     border-radius: 5px;
     padding: 35px;
+}
+
+.title {
+    font-family: 'Lato';
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.white-box {
+    padding: 35px;
+    background: white;
+    border-radius: 5px;
+    width: 350px;
+    max-width: 350px; 
 }
